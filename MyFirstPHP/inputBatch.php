@@ -30,23 +30,22 @@ $TheBiggestID = substr($isInDB[$allDataID], strlen($preWord), $spaceNo);
 
 //echo "the last id no: " . $TheBiggestID;
 
-
 $allNo = 10+$TheBiggestID;
 $i = $TheBiggestID+1;
-$sqlCode = "";
+//$sqlCode = "";
 while( $i <= $allNo )
 {
 	$currentID = "table" . $i;
 	$username = "testName" . $i;
-	$sqlCode = $sqlCode . "INSERT INTO `user` (`no`, `userid`, `username`, `userbith`, `userphone`, `useremail`) VALUES ('". $i ."', '" . $currentID . "','" . $username . "', '" . $userbith . "', '" . $userphone . "', '" . $useremail . "');";
+	$sqlCode = "INSERT INTO `user` (`no`, `userid`, `username`, `userbith`, `userphone`, `useremail`) VALUES (". $i .", '" . $currentID . "','" . $username . "', '" . $userbith . "', '" . $userphone . "', '" . $useremail . "');";
 	$i++;
+	$result = mysql_query($sqlCode);
 }
 
-echo $sqlCode;
+//echo $sqlCode;
+//echo "SQL Query:" . mysql_error();
 
-mysql_query($sqlCode);
-
-//mysql_close($link);
+mysql_close($link);
 
 
 ?>
