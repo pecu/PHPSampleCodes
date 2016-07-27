@@ -20,7 +20,7 @@ $result = mysql_query($getIDSQL);
 while( $row = mysql_fetch_assoc($result) )
 {
 	echo "<tr>";
-	echo "<td><input type=\"checkbox\" name=\"userid\" value=\"" . $row["userid"] . "\"/></td>";
+	echo "<td><input type=\"checkbox\" name=\"userid[]\" value=\"" . $row["userid"] . "\"/></td>";
 	echo "<td>" . $row["username"] . "</td>";
 	echo "<td>" . $row["userbith"] . "</td>";
 	echo "<td>" . $row["userphone"] . "</td>";

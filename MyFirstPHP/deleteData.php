@@ -1,7 +1,8 @@
 <?php
 
-$delID = $_POST["userid"];
-
-print_r($delID);
+foreach($_POST["userid"] as $item)
+{
+  echo $item;
+}
 
 ?>
