@@ -32,7 +32,7 @@ echo $sqlCode."<br>";
 
 mysql_query($sqlCode);
 
-mysql_close($link)
+mysql_close($link);
 
 ?>
 
