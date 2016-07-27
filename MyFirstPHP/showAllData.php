@@ -1,11 +1,31 @@
-<?php
+<html>
+<title></title>
+<head>
+<script type="text/javascript">
 
-include('linkdb.php');
-
-$getIDSQL = "SELECT * FROM `user` ORDER BY `user`.`no` ASC";
-$result = mysql_query($getIDSQL);
-
-?>
+    function do_this_all()
+    {
+    	var checkboxes = document.getElementsByName('userid[]');
+        var button = document.getElementById('delall');
+        
+		for (var i in checkboxes)
+		{
+			checkboxes[i].checked = 'TRUE';
+		}
+    }
+    function undo_this_all()
+    {
+    	var checkboxes = document.getElementsByName('userid[]');
+        var button = document.getElementById('undelall');
+        
+		for (var i in checkboxes)
+		{
+			checkboxes[i].checked = '';
+		}
+    }
+</script>
+</head>
+<body>
 <form action="deleteData.php" method="post">
 <table border="1">
 <tr>
@@ -17,6 +37,16 @@ $result = mysql_query($getIDSQL);
 </tr>
 
 <?php
+include('linkdb.php');
+
+//$getCountSQL = "SELECT COUNT(*) FROM `user`";
+//$resultCount = mysql_query($getCountSQL);
+//$getCount = mysql_fetch_assoc($resultCount);
+//$allDataNo = $getCount["COUNT(*)"];
+
+$getIDSQL = "SELECT * FROM `user` ORDER BY `user`.`no` ASC";
+$result = mysql_query($getIDSQL);
+
 while( $row = mysql_fetch_assoc($result) )
 {
 	echo "<tr>";
@@ -28,9 +58,13 @@ while( $row = mysql_fetch_assoc($result) )
 	echo "</tr>";
 	
 }
-
 ?>
 
 </table>
 <button type="submit">Delete</button>
+<input type="button" id="delall" value="selectAll" onClick="do_this_all()" />
+<input type="button" id="undelall" value="unchecked" onClick="undo_this_all()" />
 </form>
+
+</body>
+</html>

@@ -10,4 +10,10 @@ foreach( $_POST["userid"] as $item )
 
 mysql_close($link);
 
+$url = "showAllData.php";
+
+echo "<script type='text/javascript'>";
+echo "window.location.href='" . $url . "'";
+echo "</script>";
+
 ?>
