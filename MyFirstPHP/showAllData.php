@@ -40,9 +40,9 @@
 <?php
 include('linkdb.php');
 
-echo $adminuser."<br>";
-echo $adminpass."<br>";
-echo $adminpri."<br>";
+//echo $adminuser."<br>";
+//echo $adminpass."<br>";
+//echo $adminpri."<br>";
 
 //$getCountSQL = "SELECT COUNT(*) FROM `user`";
 //$resultCount = mysql_query($getCountSQL);

@@ -19,15 +19,19 @@ if( $pri != "" )
 	session_set_cookie_params(600);
 	session_start();
 	$_SESSION["id"] = $row["id"];
-	//$_SESSION["user"] = $user;
-	//$_SESSION["pass"] = $pass;
+	$_SESSION["user"] = $user;
+	$_SESSION["pass"] = $pass;
 	$_SESSION["pri"] = $pri;
 	session_write_close();
-	echo "login in ok!!";
+	$url = "home.php";
+	echo "<script type='text/javascript'>";
+	echo "window.location.href='$url'";
+	echo "</script>"; 
+	//echo "login in ok!!";
 }
 else
 {
-	$url = "login.php";
+	$url = "index.php";
 	echo "<script type='text/javascript'>";
 	echo "window.location.href='$url'";
 	echo "</script>"; 

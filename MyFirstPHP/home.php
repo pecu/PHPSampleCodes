@@ -34,6 +34,10 @@
             <div id="topnav" class="right">
                 <ul>
                 	<li><a href="index.php">Login</a></li>
+                	<?php 
+                		include('linkdb.php');
+	                	include('menu.php');
+                	?>
                 </ul>
             </div><!-- // end #topnav -->
         </div><!-- // end .wrap -->
@@ -57,11 +61,9 @@
     
     <div id="main">
         <div class="content wrap clearfix">
-        	<div class="column-a left">
-            <?php include('login.php'); ?><!-- // end .column-b -->
-        	</div>
-        </div><!-- // end .wrap -->
+            <div class="column-a left">
+				<?php include('showAllData.php'); ?>
+        	</div><!-- // end .wrap -->
     </div><!-- // end #main -->
- 
 </body>
 </html>

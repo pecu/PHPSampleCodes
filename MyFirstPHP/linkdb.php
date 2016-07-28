@@ -1,17 +1,26 @@
 <?php
 
+include('link.php');
+
 session_start();
+$adminuser = $_SESSION["user"];
+$adminpass = $_SESSION["pass"];
 $adminid = $_SESSION["id"];
 $adminpri = $_SESSION["pri"];
 
-if( $adminpri == "" )
+$setSQL = "SELECT COUNT(*) FROM `admin` WHERE `user` = '" . $adminuser . "' and `pass`='" . $adminpass . "'";
+$result = mysql_query($setSQL);
+$countresult = mysql_fetch_assoc($result);
+$count = $countresult["COUNT(*)"];
+
+if( $count != 1 )
 {
-	$url = "login.php";
+	$url = "index.php";
 	echo "<script type='text/javascript'>";
 	echo "window.location.href='$url'";
 	echo "</script>"; 
 }
-else
+else	// $count == 1, we get one admin user data
 {
 	$user = 'testphp';
 	$pass = 'test12345';
