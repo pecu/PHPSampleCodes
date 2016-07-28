@@ -1,22 +1,35 @@
 <?php
-$user = 'testphp';
-$pass = 'test12345';
-$host = 'localhost';
 
-$link = mysql_connect($host, $user, $pass);
+session_start();
+$adminid = $_SESSION["id"];
+$adminpri = $_SESSION["pri"];
 
-if(!$link)
+if( $adminpri == "" )
 {
-	die('can not connect to MySQL' . mysql_errno());	
+	$url = "login.php";
+	echo "<script type='text/javascript'>";
+	echo "window.location.href='$url'";
+	echo "</script>"; 
 }
-
-$database = "gettabledb";
-$db_select = mysql_select_db($database);
-
-if(!$db_select)
+else
 {
-	die('can not connect to ' . $database . ' ' . mysql_errno());	
+	$user = 'testphp';
+	$pass = 'test12345';
+	$host = 'localhost';
+
+	$link = mysql_connect($host, $user, $pass);
+
+	if(!$link)
+	{
+		die('can not connect to MySQL' . mysql_errno());	
+	}
+
+	$database = "gettabledb";
+	$db_select = mysql_select_db($database);
+
+	if(!$db_select)
+	{
+		die('can not connect to ' . $database . ' ' . mysql_errno());	
+	}
 }
-
-
 ?>

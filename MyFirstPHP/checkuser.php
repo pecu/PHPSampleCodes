@@ -1,6 +1,6 @@
 <?php
 
-include('linkdb.php');
+include('link.php');
 
 $user = $_POST["user"];
 $pass = $_POST["pass"];
@@ -18,9 +18,10 @@ if( $pri != "" )
 {
 	session_set_cookie_params(600);
 	session_start();
-	$_SESSION["user"]=$user;
-	$_SESSION["pass"]=$pass;
-	$_SESSION["pri"]=$pri;
+	$_SESSION["id"] = $row["id"];
+	//$_SESSION["user"] = $user;
+	//$_SESSION["pass"] = $pass;
+	$_SESSION["pri"] = $pri;
 	session_write_close();
 	echo "login in ok!!";
 }
