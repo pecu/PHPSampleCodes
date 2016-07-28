@@ -56,10 +56,12 @@ while( $row = mysql_fetch_assoc($result) )
 	echo "<td>" . $row["userbith"] . "</td>";
 	echo "<td>" . $row["userphone"] . "</td>";
 	echo "<td>" . $row["useremail"] . "</td>";
-	echo "<td><a href=\"./updateData.php?userid='" . $row["userid"] . "'\">update</a></td>"; 
+	echo "<td><a href=\"./updateData.php?userid=" . $row["userid"] . "\">update</a></td>"; 
 	echo "</tr>";
 	
 }
+
+mysql_close($link);
 ?>
 
 </table>
