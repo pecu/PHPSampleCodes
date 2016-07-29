@@ -8,7 +8,7 @@ $adminpass = $_SESSION["pass"];
 $adminid = $_SESSION["id"];
 $adminpri = $_SESSION["pri"];
 
-$setSQL = "SELECT COUNT(*) FROM `admin` WHERE `user` = '" . $adminuser . "' and `pass`='" . $adminpass . "'";
+$setSQL = "SELECT COUNT(*) FROM `admin` WHERE `id` = " . $adminid;
 $result = mysql_query($setSQL);
 $countresult = mysql_fetch_assoc($result);
 $count = $countresult["COUNT(*)"];

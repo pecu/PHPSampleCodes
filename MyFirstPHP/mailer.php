@@ -10,9 +10,9 @@ $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 465; // or 587
 $mail->IsHTML(true);
-$mail->Username = "xxxx@gmail.com";
-$mail->Password = "xxxx";
-$mail->SetFrom("xxxx@gmail.com");
+$mail->Username = "xxx@gmail.com";
+$mail->Password = "xxxxxx";
+$mail->SetFrom("xxx@gmail.com");
 $mail->Subject = "id check mail";
 
 
