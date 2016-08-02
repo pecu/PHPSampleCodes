@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\AppServ\www\PHPSampleCodes\testBAT\testBAT.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/PHPSampleCodes/testBAT/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/PHPSampleCodes/testBAT/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\test1.php"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\Codelobster0.txt"/>
+	</lastopfiles>
+	<codestructure version="5.8">
+		<phptree>
+			<treenode node="file;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\testBAT\Codelobster0.php;f0;6;5;6;;C:\AppServ\www\PHPSampleCodes\testBAT\test2.php;f0;6;5;6;;C:\AppServ\www\PHPSampleCodes\testBAT\test1.php;f0;6;5;6;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="time;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\testBAT\Codelobster0.php;f0;5;5;5;;C:\AppServ\www\PHPSampleCodes\testBAT\test2.php;f0;5;5;5;;C:\AppServ\www\PHPSampleCodes\testBAT\test1.php;f0;5;5;5;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\test2.php" crc="1470156911"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\test1.php" crc="1470158583"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\dump2.txt" crc="1470156848"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\dump1.txt" crc="1470158587"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\testBAT\Codelobster0.txt" crc="1470158638"/>
+	</filescache>
+</project>
