@@ -35,7 +35,7 @@ if($pri==2){
 	$_SESSION['pass']=$row['user_pass'];
 	$_SESSION['pri']=$row['user_pri'];
 	session_write_close();
-	$url='myorder.php';
+	$url='search.php';
 
 	echo "<script type='text/javascript'>";
 	echo "window.location.href='$url'";
