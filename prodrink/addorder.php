@@ -1,5 +1,6 @@
 <?php
 include('linkdb.php'); 
+date_default_timezone_set("Asia/Taipei");
 $datetime = date ("Y-m-d H:i:s");
 
 $user= $_SESSION['user'];
@@ -25,9 +26,9 @@ foreach($id as $id2)
 	$sum2 = $sum[$m];
 	
 $sql= "INSERT INTO `orderlist` (`order_id`, `product_id`, `order_sum`) VALUES ('".$orderid."','".$id2."', '".$sum2."')";
-/*
+
 echo $sql;
-*/
+
 mysql_query($sql);
 
 echo "<br>";
