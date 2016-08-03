@@ -5,7 +5,7 @@
 	$checkValue = isset($_POST["checknum"]);
 	if($checkValue)
 	{
-		if( !($pageCtr -> verifyImage($_POST["checknum"])) )
+		if( $pageCtr -> verifyImage($_POST["checknum"]) )
 		{
 			$fill = isset($_POST["action"]);
 			if($fill)
