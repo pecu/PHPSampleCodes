@@ -16,7 +16,7 @@
 			</treenode>
 			<treenode node="content_userModify.php;PHP:PHP Include;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f12;21;34;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="func_linkdb.php;PHP:PHP Include;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f11;10;26;10;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f9;2;24;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f9;5;24;5;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f12;21;27;21;;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f13;9;28;9;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f9;5;24;5;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f10;2;25;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="func_linkdb.php;PHP:PHP Include;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f11;10;26;10;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f12;21;27;21;;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f13;9;28;9;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f9;5;24;5;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f9;2;24;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f10;2;25;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f9;5;24;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="pageControl;PHP:Class Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f0;2;1;157;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\pageControl.php;f0;2;1;157;;;;vpos;;v;;r;;d0,3;;b0,0;;m">
 				<treenode node="changPageTo;PHP:Function Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\Codelobster0.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\pageControl.php;f8;4;2;11;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\pageControl.php;f8;4;2;11;;;;vpos;;v;;r;;d1,5;;b1,0;;murl;;p">
@@ -92,11 +92,11 @@
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="_GET;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f9;2;14;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f10;7;15;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_GET;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f10;7;15;7;;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f9;2;14;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_POST;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f15;8;21;8;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f41;4;47;4;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f10;9;16;9;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f9;7;15;7;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f21;4;27;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_POST;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f15;8;21;8;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f9;7;15;7;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f41;4;47;4;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f21;4;27;4;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f10;9;16;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_SESSION;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f10;2;19;2;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f9;4;18;4;;C:\AppServ\www\PHPSampleCodes\Accounters\func_logout.php;f6;2;15;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f10;2;19;2;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f25;23;34;23;;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f5;6;14;6;;C:\AppServ\www\PHPSampleCodes\Accounters\content_activityBar.php;f11;1;20;1;;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f9;2;18;2;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f10;2;19;2;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;12;10;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_SESSION;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;12;10;12;;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f10;2;19;2;;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f9;2;18;2;;C:\AppServ\www\PHPSampleCodes\Accounters\func_logout.php;f6;2;15;2;;C:\AppServ\www\PHPSampleCodes\Accounters\content_activityBar.php;f11;1;20;1;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f25;23;34;23;;C:\AppServ\www\PHPSampleCodes\Accounters\content_planModify.php;f5;6;14;6;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f10;2;19;2;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f9;4;18;4;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f10;2;19;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="action;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f4;12;11;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -110,9 +110,9 @@
 			</treenode>
 			<treenode node="gray;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;19;6;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="i;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f6;29;8;29;;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f6;6;8;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="i;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f6;6;8;6;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f6;29;8;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="im;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;17;4;17;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="im;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;17;4;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="img_height;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;1;12;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -120,7 +120,7 @@
 			</treenode>
 			<treenode node="info;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f2;14;7;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="link;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\func_linkdb.php;f0;2;5;2;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="link;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\func_linkdb.php;f0;2;5;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="mass;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;3;6;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -130,7 +130,7 @@
 			</treenode>
 			<treenode node="num_max;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;5;9;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="pageCtr;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f49;45;57;45;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f3;25;11;25;;C:\AppServ\www\PHPSampleCodes\Accounters\index.php;f2;9;10;9;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f2;32;10;32;;C:\AppServ\www\PHPSampleCodes\Accounters\func_linkdb.php;f0;10;8;10;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f6;7;14;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="pageCtr;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\index.php;f2;9;10;9;;C:\AppServ\www\PHPSampleCodes\Accounters\func_linkdb.php;f0;10;8;10;;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f3;25;11;25;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f2;32;10;32;;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f6;7;14;7;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f49;45;57;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="raw_data;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\content_record.php;f3;22;12;22;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -138,11 +138,11 @@
 			</treenode>
 			<treenode node="result;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f2;13;9;13;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f1;14;8;14;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="sql;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f2;12;6;12;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f1;9;5;9;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f1;13;5;13;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f1;9;5;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="sql;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php;f2;12;6;12;;C:\AppServ\www\PHPSampleCodes\Accounters\content_userModify.php;f1;9;5;9;;C:\AppServ\www\PHPSampleCodes\Accounters\func_recModify.php;f1;9;5;9;;C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php;f1;13;5;13;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="strpos;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f2;39;9;39;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="strpos;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f2;39;9;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="strx;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;36;6;36;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="strx;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;36;6;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="style;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;22;7;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -150,15 +150,15 @@
 			</treenode>
 			<treenode node="userData;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php;f4;13;13;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="view;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\content_activityBar.php;f5;6;10;6;;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="view;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php;f2;8;7;8;;C:\AppServ\www\PHPSampleCodes\Accounters\content_activityBar.php;f5;6;10;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="y1;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;24;4;24;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="y1;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;24;4;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="y2;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;25;4;25;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="y2;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;25;4;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="y3;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;26;4;26;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="y3;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;26;4;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="y4;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;27;4;27;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="y4;PHP:Var Name;C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php;f1;27;4;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</phptree>
 		<jstree>
@@ -501,12 +501,14 @@
 		</lesstree>
 	</codestructure><todoblock>
 	</todoblock>
+	<dbgurls>
+	</dbgurls>
 	<filescache>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\tools\showrandimg.php" crc="1470242723"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\tools\pageControl.php" crc="1470242348"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\sorttable.js" crc="1469950243"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\page_register.php" crc="1470242763"/>
-		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php" crc="1470238677"/>
+		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\page_recModify.php" crc="1470293483"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\page_login.php" crc="1470159014"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\page_home.php" crc="1470214092"/>
 		<file name="C:\AppServ\www\PHPSampleCodes\Accounters\index.php" crc="1470233703"/>

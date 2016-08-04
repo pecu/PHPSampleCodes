@@ -43,7 +43,8 @@ else if($_POST['action']=="delete")
 
 <form id="modify_form" action="./func_recModify.php" method="post">
 <font color="#db0000">Record ID: </font>
-<input type="text" name="acc_recid" value="<?php $pageCtr -> modifyValue($editType_text, $user_id, $modify_target); ?>" /><br>
+<input type="text" name="acc_recid" value="<?php $pageCtr -> modifyValue($editType_text, $user_id, $modify_target); ?>" />
+<br>
 Data: <input type="date" name="acc_date" value="<?php echo (isset($recordInfo["acc_date"])?$recordInfo["acc_date"]:"")?>"/><br>
 Type: <input type="text" name="acc_typeid" value="<?php echo (isset($recordInfo["acc_typeid"])?$recordInfo["acc_typeid"]:"")?>"/><br>
 CASH-IN/OUT: <input type="text" name="money" value="<?php echo (isset($recordInfo["money"])?$recordInfo["money"]:"")?>"/><br>

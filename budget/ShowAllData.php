@@ -33,47 +33,20 @@ include("header.php");
 </script>
 </head>
 <body>
-<form action="sendOrder.php" method="post">
-<table border="1">
-<tr>
-	<th>Select</th>
-	<th>No</th>
-	<th>Company</th>
-	<th>Date</th>
-	<th>Time</th>
-	<th>Quantity</th>
-	<th>Numbers</th>
-</tr>
+
+<center><table>
 
 <?php
-$getNoSQL = "SELECT * FROM `product` ORDER BY `product`.`no` ASC";
-$resultNo = mysql_query($getNoSQL);
 
 echo $_SESSION["user"] . "您好<br>";
+$actionName = "sendOrder.php";
+$reportSQL1 = "SELECT * FROM `product` ORDER BY `product`.`no` ASC";
+$buttonName = array("delall", "undelall");
+$pageObj -> showTable($actionName, $reportSQL1, "Show All Data", $buttonName, "T");
 
-while ($row = mysql_fetch_assoc($resultNo))
-{
-	echo "<tr>";
-	echo "<td><input type=\"checkbox\" name=\"no[]\" value=\"". $row["no"] . "\"/></td>";
-	echo "<td>" . $row["no"] . "</td>";
-	echo "<td>" . $row["company"] . "</td>";
-	echo "<td>" . $row["date"] . "</td>";
-	echo "<td>" . $row["time"] . "</td>";
-	echo "<td>" . $row["quantity"] . "</td>";
-	echo "<td>" . "<input type = \"text\" size = \"8\" name = \"numbers[]\"/>" ."</td>";
-	echo "</tr>";
-}
+?>
 
-mysql_close($link);
-?>	
-
-</table>
-
-<input type="button" id="delall" value="SelectAll" onClick="do_this_all()" />
-<input type="button" id="undelall" value="unchecked" onClick="undo_this_all()" />
-<button type="submit">Send Order</button>
-</form>
-
+</table></center>
 </body>
 </html>
 

@@ -19,5 +19,8 @@ if( $count != 1 )
 	echo "window.location.href='$url'";
 	echo "</script>"; 
 }
+
+require('./tools/pageCtrl.php');
+$pageObj = new pageCtrl;
 	
 ?>
