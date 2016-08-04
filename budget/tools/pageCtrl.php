@@ -72,6 +72,35 @@ class pageCtrl
 		echo "<button type=\"submit\">Search</button></form>";
 	}
 
+	public function checkImage($inputname)
+	{
+		$strCtrl = "CODE: <input type=\"text\" name=\"" . $inputname . "\" id=\"checknum\">
+		<img src=\"./tools/showrandimg.php\" id=\"rand-img\"><br>";
+		
+		echo $strCtrl;
+	}
+	
+	public function verifyImage($checknum)
+	{
+		Session_start();
+		$result = 1;
+		if( $_SESSION["Checknum"] != $checknum )
+		{
+			echo "<script type='text/javascript'>alert(\"Check Error!\"); </script>";
+			$result = 0;
+		}
+		return $result;
+	}
+
+	public function changPageTo($url)
+	{
+		$script = "<script type='text/javascript'>";
+		$script = $script . "window.location.href='$url'";
+		$script = $script . "</script>";
+		
+		return $script;
+	}
+
 }
 
 

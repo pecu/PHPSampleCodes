@@ -3,37 +3,47 @@ include('header.php');
 
 include("link2.php");
 
-$username = $_POST["username"];
-$userpass = $_POST["userpass"];
-$usermail = $_POST["email"];
+if( isset( $_POST["checknum"] ) )
+{
+	if( !($pageObj -> verifyImage($_POST["checknum"])) )
+	{
+		$url = "creatuser.php";
+		echo $pageObj -> changPageTo($url);
+	}
+	
+	$username = $_POST["username"];
+	$userpass = $_POST["userpass"];
+	$usermail = $_POST["email"];
 
-$setSQL = "INSERT INTO `admin`(`user`, `pass`, `pri`, `email`) VALUES ('" . $username . "','" . $userpass . "',0,'" . $usermail . "')";
+	$setSQL = "INSERT INTO `admin`(`user`, `pass`, `pri`, `email`) VALUES ('" . $username . "','" . $userpass . "',0,'" . $usermail . "')";
 
-//echo $setSQL;
-
-
-mysql_query($setSQL);
-
-$getIDSQL = "SELECT id FROM `admin` WHERE `user` = '" . $username. "' AND `pass` = '". $userpass ."'";
-$result = mysql_query($getIDSQL);
-$userID = mysql_fetch_assoc($result);
-
-include('mailer.php');
-
-$url= "http://localhost/budget/idcheck.php?id=" . $userID["id"];
-$ahref = "<a href=\"" . $url ."\">" . $url ."</a>";
-$htmlurl = "<table><tr><td>welcome and please link the following url</td><td>". $ahref . "</td></tr></table>";
-
-$mail->Body = $htmlurl;
-$mail->AddAddress($usermail);
+	//echo $setSQL;
 
 
- if(!$mail->Send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
- } else {
-    echo "<br>"."Message has been sent";
- }
- 
+	mysql_query($setSQL);
+
+	$getIDSQL = "SELECT id FROM `admin` WHERE `user` = '" . $username. "' AND `pass` = '". $userpass ."'";
+	$result = mysql_query($getIDSQL);
+	$userID = mysql_fetch_assoc($result);
+
+	include('mailer.php');
+
+	$url= "http://localhost/budget/idcheck.php?id=" . $userID["id"];
+	$ahref = "<a href=\"" . $url ."\">" . $url ."</a>";
+	$htmlurl = "<table><tr><td>welcome and please link the following url</td><td>". $ahref . "</td></tr></table>";
+
+	$mail->Body = $htmlurl;
+	$mail->AddAddress($usermail);
+
+
+	 if(!$mail->Send()) {
+	    echo "Mailer Error: " . $mail->ErrorInfo;
+	 } else {
+	    echo "<br>"."Message has been sent";
+	 }
+	
+}
+
 
 ?>
 

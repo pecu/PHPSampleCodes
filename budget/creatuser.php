@@ -31,7 +31,12 @@ include('header.php');
 						    <td><h3>E-mail</h3></td>
 						    <td><input type="text" name="email"/></td>
 					    </tr>					
-				    </table>  
+				    </table>
+				    
+				    <?php 
+				    	$pageObj -> checkImage("checknum");
+				    ?>
+
 				    <button class="btn" type="submit">send</button>
 				</form>
 			</div>

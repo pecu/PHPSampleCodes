@@ -78,3 +78,7 @@
             </div>
         </div>
     </header>
+<?php
+require('./tools/pageCtrl.php');
+$pageObj = new pageCtrl;
+?>
